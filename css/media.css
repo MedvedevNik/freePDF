@@ -1,0 +1,11 @@
+@media (max-width: 700px) {
+   .header__btn {
+      float: none;
+   }
+
+   .header__content {
+      text-align: center;
+   }
+
+   
+}
