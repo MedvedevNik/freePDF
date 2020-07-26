@@ -112,6 +112,7 @@ header {
 
 .menu a:hover {
    border-color: #ffc222;
+   cursor: pointer;
 }
 
 .menu li+li {
