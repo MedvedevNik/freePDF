@@ -22,7 +22,6 @@ li {
 
 body {
    font-family: "PT Serif", serif;
-   /* font-family: 'Roboto', sans-serif; */
    font-weight: 400;
    font-size: 14px;
    line-height: 18px;
@@ -837,8 +836,11 @@ header {
    background-color: #ffc222;
    border: none;
 }
+<<<<<<< HEAD
 
 .header__btn-menu {
    display: none;
    font-size: 28px;
 }
+=======
+>>>>>>> a1c9938d1720504a0baa431a43779ac72bd1185b
