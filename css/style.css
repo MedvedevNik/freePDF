@@ -228,8 +228,8 @@ header {
 }
 
 /*  services */
-.services, 
-.form, 
+.services,
+.form,
 .news {
    padding: 50px 0 30px;
 }
@@ -382,7 +382,7 @@ header {
 }
 
 .form__inner {
-   padding-bottom:40px;
+   padding-bottom: 40px;
    background-image: url(../img/form-bg.png);
    min-height: 460px;
    background-repeat: no-repeat;
@@ -396,7 +396,7 @@ header {
 
 .form__box-inner {
    display: flex;
-   justify-content: space-between;  
+   justify-content: space-between;
 }
 
 .form__box-left {
@@ -437,7 +437,7 @@ header {
    padding-left: 17px;
 }
 
-.form__box-inner .jq-selectbox.jqselect{
+.form__box-inner .jq-selectbox.jqselect {
    display: block;
    width: 100%;
 }
@@ -448,7 +448,7 @@ header {
    padding-left: 17px;
 }
 
-.form__box-inner .jq-selectbox__trigger-arrow:before{
+.form__box-inner .jq-selectbox__trigger-arrow:before {
    content: "\f105";
    font-family: "icomoon";
    position: absolute;
@@ -466,34 +466,41 @@ header {
 }
 
 .form__box-inner .jq-selectbox li {
-	min-height: 18px;
-	padding: 5px 17px 6px;
-	color: #231F20;
+   min-height: 18px;
+   padding: 5px 17px 6px;
+   color: #231F20;
 }
+
 .form__box-inner .jq-selectbox li.selected {
-	background-color: #A3ABB1;
-	color: #FFF;
+   background-color: #A3ABB1;
+   color: #FFF;
 }
+
 .form__box-inner .jq-selectbox li:hover {
-	background-color: #08C;
-	color: #FFF;
+   background-color: #08C;
+   color: #FFF;
 }
+
 .form__box-inner .jq-selectbox li.disabled {
-	color: #AAA;
+   color: #AAA;
 }
+
 .form__box-inner .jq-selectbox li.disabled:hover {
-	background: none;
+   background: none;
 }
+
 .form__box-inner .jq-selectbox li.optgroup {
-	font-weight: bold;
+   font-weight: bold;
 }
+
 .form__box-inner .jq-selectbox li.optgroup:hover {
-	background: none;
-	color: #231F20;
-	cursor: default;
+   background: none;
+   color: #231F20;
+   cursor: default;
 }
+
 .form__box-inner .jq-selectbox li.option {
-	padding-left: 25px;
+   padding-left: 25px;
 }
 
 .form__box-inner textarea {
@@ -616,7 +623,7 @@ header {
 }
 
 .news__images {
-   position: relative;  
+   position: relative;
 }
 
 .news__date {
@@ -701,14 +708,16 @@ header {
    display: flex;
    justify-content: space-between;
 }
+
 .footer__map {
    padding-top: 10px;
-}
-/* .footer__map iframe {
-   height: 250px;
    max-width: 630px;
    width: 100%;
-} */
+}
+
+.footer__map iframe {
+   width: 100%;
+}
 
 .footer__info {
    max-width: 360px;
@@ -753,7 +762,7 @@ header {
    margin-top: 10px;
 }
 
-.footer__list  a {
+.footer__list a {
    font-family: "Roboto", sans-serif;
    font-weight: 400;
    font-size: 16px;
